@@ -8,6 +8,8 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 "  NeoBundleFetch 'Shougo/neobundle.vim'
 
+NeoBundle "Shougo/neocomplete.vim"
+
 syntax on
 filetype on
 filetype plugin indent on   " Required!
@@ -22,4 +24,29 @@ set backspace=indent,eol,start
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
+
+"==========================================
+"neocomplete.vim
+"==========================================
+"use neocomplete.
+let g:neocomplete#enable_at_startup = 1
+" Use smartcase.
+let g:neocomplete#enable_smart_case = 1
+" Set minimum syntax keyword length.
+let g:neocomplete#sources#syntax#min_keyword_length = 3
+let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
+" Define dictionary.
+let g:neocomplete#sources#dictionary#dictionaries = {
+      \ 'default' : '',
+      \ 'vimshell' : $HOME.'/.vimshell_hist',
+      \ 'scheme' : $HOME.'/.gosh_completions'
+      \ }
+" Define keyword.
+if !exists('g:neocomplete#keyword_patterns')
+  let g:neocomplete#keyword_patterns = {}
+endif
+let g:neocomplete#keyword_patterns['default'] = '\h\w*'
+" Plugin key-mappings.
+inoremap <expr><C-g>  neocomplete#undo_completion()
+inoremap <expr><C-l>  neocomplete#complete_common_string()
 
