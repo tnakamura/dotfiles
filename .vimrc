@@ -9,6 +9,7 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 "  NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle "Shougo/neocomplete.vim"
+NeoBundle "scrooloose/nerdtree"
 
 syntax on
 filetype on
