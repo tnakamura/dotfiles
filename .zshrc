@@ -5,3 +5,5 @@ setopt no_beep          # ビープ音
 setopt auto_cd          # ディレクトリ名の入力のみで移動
 
 autoload -U compinit; compinit  # 補完機能を有効
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
