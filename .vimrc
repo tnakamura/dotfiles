@@ -26,6 +26,14 @@ set softtabstop=2
 set shiftwidth=2
 
 "==========================================
+"keymapping
+"==========================================
+" <Space>. で .vimrc を開く
+nnoremap <Space>. :<C-u>edit $MYVIMRC<Enter> 
+" <Space>s. で .vimrc を読み込む
+nnoremap <Space>s. :<C-u>source $MYVIMRC<Enter>
+
+"==========================================
 "neocomplete.vim
 "==========================================
 "use neocomplete.
