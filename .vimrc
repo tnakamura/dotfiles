@@ -17,7 +17,7 @@ filetype plugin indent on   " Required!
 
 NeoBundleCheck
 
-set autoindent
+set smartindent
 set expandtab
 set number
 set nobackup
