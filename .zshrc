@@ -15,3 +15,10 @@ PROMPT="%/%% "
 PROMPT2="%_%% "
 SPROMPT="%r is correct? [n,y,a,e]: "
 
+# コマンド履歴機能を設定
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt hist_ignore_dups # コマンドの重複不可
+setopt share_history # コマンド履歴データを共有する
+
