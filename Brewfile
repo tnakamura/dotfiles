@@ -25,4 +25,5 @@ cask install appcleaner || true
 cask install clamxav || true
 cask install alfred || true
 cask install evernote || true
+cask install dropbox || true
 
