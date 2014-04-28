@@ -21,4 +21,5 @@ cask install virtualbox || true
 cask install vagrant || true
 cask install onyx || true
 cask install skype || true
+cask install appcleaner || true
 
