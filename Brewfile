@@ -26,4 +26,5 @@ cask install clamxav || true
 cask install alfred || true
 cask install evernote || true
 cask install dropbox || true
+cask install dash || true
 
