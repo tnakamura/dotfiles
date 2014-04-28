@@ -13,3 +13,5 @@ install zsh || true
 install rbenv || true
 install ruby-build || true
 
+cask install google-chrome || true
+
