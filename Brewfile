@@ -27,4 +27,5 @@ cask install alfred || true
 cask install evernote || true
 cask install dropbox || true
 cask install dash || true
+cask install the-unarchiver || true
 
