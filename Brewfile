@@ -23,4 +23,5 @@ cask install onyx || true
 cask install skype || true
 cask install appcleaner || true
 cask install clamxav || true
+cask install alfred || true
 
