@@ -16,4 +16,5 @@ install ruby-build || true
 cask install google-chrome || true
 cask install iterm2 || true
 cask install sourcetree || true
+cask install vlc || true
 
