@@ -8,6 +8,7 @@ tap homebrew/versions || true
 tap phinze/homebrew-cask || true
 install brew-cask || true
 
+install vim --devel --with-lua || true
 install git || true
 install zsh || true
 install rbenv || true
