@@ -19,4 +19,5 @@ cask install sourcetree || true
 cask install vlc || true
 cask install virtualbox || true
 cask install vagrant || true
+cask install onyx || true
 
