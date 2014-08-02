@@ -25,3 +25,9 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# nodebrew を読み込む
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# リポジトリは GO の流儀で管理
+export GOPATH=$HOME
+
