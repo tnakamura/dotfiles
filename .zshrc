@@ -34,3 +34,6 @@ export PATH="$HOME/bin:$PATH"
 # Homebrew でインストールした Vim を使う
 export PATH="/usr/local/bin:$PATH"
 
+# alias の設定
+alias g='cd $(ghq list -p | peco)'
+
