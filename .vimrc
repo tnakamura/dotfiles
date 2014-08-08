@@ -9,6 +9,7 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 "  NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle "Shougo/neocomplete.vim"
+NeoBundle "Shougo/unite.vim"
 NeoBundle "scrooloose/nerdtree"
 NeoBundle "mattn/emmet-vim"
 
