@@ -11,7 +11,6 @@ install zsh || true
 
 tap phinze/homebrew-cask || true
 install brew-cask || true
-cask install alfred || true
 cask install appcleaner || true
 cask install bathyscaphe || true
 cask install ccleaner || true
