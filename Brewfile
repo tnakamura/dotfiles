@@ -19,6 +19,7 @@ cask install dash || true
 cask install dropbox || true
 cask install evernote || true
 cask install google-chrome || true
+cask install inkscape || true
 cask install iterm2 || true
 cask install onyx || true
 cask install skitch || true
@@ -28,3 +29,4 @@ cask install the-unarchiver || true
 cask install vagrant || true
 cask install virtualbox || true
 cask install vlc || true
+cask install xquartz || true
