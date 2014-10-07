@@ -6,6 +6,8 @@ install go || true
 install mercurial || true
 install rbenv || true
 install ruby-build || true
+install sbt || true
+install scala || true
 install vim --devel --with-lua || true
 install zsh || true
 
@@ -21,7 +23,6 @@ cask install evernote || true
 cask install google-chrome || true
 cask install inkscape || true
 cask install iterm2 || true
-cask install onyx || true
 cask install skitch || true
 cask install skype || true
 cask install sourcetree || true
