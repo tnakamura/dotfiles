@@ -1,21 +1,22 @@
 update || true
 
 tap homebrew/versions || true
-install git || true
-install go || true
-install mercurial || true
-install rbenv || true
-install ruby-build || true
-install sbt || true
-install scala || true
+
 install vim --devel --with-lua || true
 install zsh || true
+install git || true
+install mercurial || true
+install go || true
+install rbenv || true
+install ruby-build || true
+install scala || true
+install sbt || true
+install giter8 || true
 
 tap phinze/homebrew-cask || true
 install brew-cask || true
 cask install appcleaner || true
 cask install bathyscaphe || true
-cask install ccleaner || true
 cask install clamxav || true
 cask install dash || true
 cask install dropbox || true
