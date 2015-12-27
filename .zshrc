@@ -18,13 +18,6 @@ SAVEHIST=10000
 setopt hist_ignore_dups # コマンドの重複不可
 setopt share_history # コマンド履歴データを共有する
 
-# rbenv を読み込む 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
-# nodebrew を読み込む
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
 # リポジトリは GO の流儀で管理
 export GOPATH=$HOME
 
@@ -36,4 +29,7 @@ export PATH="/usr/local/bin:$PATH"
 
 # alias の設定
 alias g='cd $(ghq list -p | peco)'
+
+# .NET バージョンマネージャを使えるようにする
+source dnvm.sh
 
