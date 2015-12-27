@@ -1,15 +1,16 @@
-update || true
+cask_args appdir: "/Applications"
 
-tap homebrew/versions || true
+tap "caskroom/cask"
+tap "telemachus/brew", "https://telemachus@bitbucket.org/telemachus/brew.git"
 
-install vim --devel --with-lua || true
-install zsh || true
-install git || true
-install mercurial || true
-install go || true
-install rbenv || true
-install ruby-build || true
-install scala || true
-install sbt || true
-install giter8 || true
+brew "vim"
+brew "zsh"
+brew "git"
+brew "mercurial"
+brew "go"
+brew "node"
 
+cask "transmission"
+cask "the-unarchiver"
+cask "vlc"
+cask "macvim"
