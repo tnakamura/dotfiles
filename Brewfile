@@ -9,6 +9,8 @@ brew "git"
 brew "mercurial"
 brew "go"
 brew "node"
+brew "rbenv"
+brew "ruby-build"
 
 cask "transmission"
 cask "the-unarchiver"
