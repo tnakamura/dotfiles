@@ -11,6 +11,7 @@ brew "go"
 brew "node"
 brew "rbenv"
 brew "ruby-build"
+brew "dnvm"
 
 cask "transmission"
 cask "the-unarchiver"
