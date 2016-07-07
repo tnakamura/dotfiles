@@ -33,6 +33,3 @@ alias g='cd $(ghq list -p | peco)'
 # rbenv を使う
 eval "$(rbenv init -)"
 
-# .NET バージョンマネージャを使えるようにする
-source dnvm.sh
-
