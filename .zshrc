@@ -18,12 +18,6 @@ SAVEHIST=10000
 setopt hist_ignore_dups # コマンドの重複不可
 setopt share_history # コマンド履歴データを共有する
 
-# リポジトリは GO の流儀で管理
-export GOPATH=$HOME
-
-# GO でイントールした bin も使う"
-export PATH="$HOME/bin:$PATH"
-
 # Homebrew でインストールした Vim を使う
 export PATH="/usr/local/bin:$PATH"
 
