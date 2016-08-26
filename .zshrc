@@ -27,3 +27,6 @@ alias g='cd $(ghq list -p | peco)'
 # rbenv を使う
 eval "$(rbenv init -)"
 
+# nodenv を使う
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init -)"
