@@ -13,6 +13,7 @@ brew "ghq"
 
 cask "appcleaner"
 cask "cooviewer"
+cask "google-chrome"
 cask "iterm2"
 cask "sourcetree"
 cask "the-unarchiver"
