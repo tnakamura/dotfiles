@@ -24,6 +24,9 @@ export PATH="/usr/local/bin:$PATH"
 # alias の設定
 alias g='cd $(ghq list -p | peco)'
 
+# ghq のルートディレクトリを変更
+export GHQ_ROOT="$HOME/Projects"
+
 # rbenv を使う
 eval "$(rbenv init -)"
 
