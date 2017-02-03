@@ -31,5 +31,4 @@ export GHQ_ROOT="$HOME/Projects"
 eval "$(rbenv init -)"
 
 # nodenv を使う
-export PATH="$HOME/.nodenv/bin:$PATH"
 eval "$(nodenv init -)"
