@@ -32,3 +32,8 @@ eval "$(rbenv init -)"
 
 # nodenv を使う
 eval "$(nodenv init -)"
+
+# fastlane を使う
+export PATH="$HOME/.fastlane/bin:$PATH"
+
+eval $(/usr/libexec/path_helper -s)
