@@ -30,8 +30,9 @@ export GHQ_ROOT="$HOME/Projects"
 # rbenv を使う
 eval "$(rbenv init -)"
 
-# nodenv を使う
-eval "$(nodenv init -)"
+# nvm を使う
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
 
 # fastlane を使う
 export PATH="$HOME/.fastlane/bin:$PATH"
