@@ -38,3 +38,9 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.fastlane/bin:$PATH"
 
 eval $(/usr/libexec/path_helper -s)
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/tnakamura/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/tnakamura/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/tnakamura/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/tnakamura/google-cloud-sdk/completion.zsh.inc'; fi
