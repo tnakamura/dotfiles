@@ -24,23 +24,27 @@ export PATH="/usr/local/bin:$PATH"
 # alias の設定
 alias g='cd $(ghq list -p | peco)'
 
-# ghq のルートディレクトリを変更
+# ghq
 export GHQ_ROOT="$HOME/Projects"
 
-# rbenv を使う
+# rbenv
 eval "$(rbenv init -)"
 
-# nvm を使う
+# nvm
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
-# fastlane を使う
+# fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
 
-eval $(/usr/libexec/path_helper -s)
+# golang
+export GOPATH="$HOME/Projects"
+export PATH="$GOPATH/bin:$PATH"
 
+# gcloud
+eval $(/usr/libexec/path_helper -s)
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/tnakamura/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/tnakamura/google-cloud-sdk/path.zsh.inc'; fi
-
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/tnakamura/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/tnakamura/google-cloud-sdk/completion.zsh.inc'; fi
+
