@@ -2,6 +2,7 @@ syntax on
 
 set number
 set nobackup
+set noundofile
 
 set fileencodings=utf-8,cp932
 
