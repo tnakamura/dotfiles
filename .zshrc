@@ -25,7 +25,7 @@ export PATH="/usr/local/bin:$PATH"
 alias g='cd $(ghq list -p | peco)'
 
 # ghq
-export GHQ_ROOT="$HOME/Projects"
+export GHQ_ROOT="$HOME/src"
 
 # rbenv
 eval "$(rbenv init -)"
@@ -38,7 +38,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.fastlane/bin:$PATH"
 
 # golang
-export GOPATH="$HOME/Projects"
+export GOPATH="$HOME"
 export PATH="$GOPATH/bin:$PATH"
 
 # gcloud
@@ -47,4 +47,7 @@ eval $(/usr/libexec/path_helper -s)
 if [ -f '/Users/tnakamura/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/tnakamura/google-cloud-sdk/path.zsh.inc'; fi
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/tnakamura/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/tnakamura/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Flutter
+export PATH="$PATH:`pwd`/flutter/bin"
 
