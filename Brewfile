@@ -5,7 +5,6 @@ tap "telemachus/brew", "https://telemachus@bitbucket.org/telemachus/brew.git"
 
 brew "git"
 brew "go"
-brew "nvm"
 brew "peco"
 brew "rbenv"
 brew "vim"
