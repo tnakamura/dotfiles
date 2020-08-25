@@ -47,3 +47,7 @@ if [ -f '/Users/tnakamura/google-cloud-sdk/completion.zsh.inc' ]; then source '/
 # Flutter
 export PATH="$PATH:`pwd`/flutter/bin"
 
+# NVS
+export NVS_HOME="$HOME/.nvs"
+[ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
+
