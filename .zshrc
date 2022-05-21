@@ -33,22 +33,11 @@ eval "$(rbenv init -)"
 # fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
 
-# golang
-export GOPATH="$HOME"
-export PATH="$GOPATH/bin:$PATH"
-
-# gcloud
-eval $(/usr/libexec/path_helper -s)
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/tnakamura/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/tnakamura/google-cloud-sdk/path.zsh.inc'; fi
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/tnakamura/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/tnakamura/google-cloud-sdk/completion.zsh.inc'; fi
-
-# Flutter
-export PATH="$PATH:`pwd`/flutter/bin"
-
 # NVS
 export NVS_HOME="$HOME/.nvs"
 [ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
 nvs auto on
+
+# .NET
+export PATH="$HOME/.dotnet/tools:$PATH"
 
