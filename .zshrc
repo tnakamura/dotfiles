@@ -41,3 +41,6 @@ nvs auto on
 # .NET
 export PATH="$HOME/.dotnet/tools:$PATH"
 
+# flutter
+export PATH="$PATH:`pwd`/flutter/bin"
+
