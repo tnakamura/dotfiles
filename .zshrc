@@ -23,24 +23,3 @@ export PATH="/usr/local/bin:$PATH"
 
 # alias の設定
 alias g='cd $(ghq list -p | peco)'
-
-# ghq
-export GHQ_ROOT="$HOME/src"
-
-# rbenv
-eval "$(rbenv init -)"
-
-# fastlane
-export PATH="$HOME/.fastlane/bin:$PATH"
-
-# NVS
-export NVS_HOME="$HOME/.nvs"
-[ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
-nvs auto on
-
-# .NET
-export PATH="$HOME/.dotnet/tools:$PATH"
-
-# flutter
-export PATH="$PATH:`pwd`/flutter/bin"
-
