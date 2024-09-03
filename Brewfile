@@ -3,6 +3,7 @@
 tap homebrew/core
 brew "peco"
 brew "ghq"
+brew "volta"
 
 tap homebrew/cask
 cask "appcleaner"

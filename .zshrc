@@ -23,3 +23,8 @@ export PATH="/usr/local/bin:$PATH"
 
 # alias の設定
 alias g='cd $(ghq list -p | peco)'
+
+# volta
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
