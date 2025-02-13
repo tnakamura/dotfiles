@@ -4,7 +4,8 @@ set number
 set nobackup
 set noundofile
 
-set fileencodings=utf-8,cp932
+set encoding=utf8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 
 set backspace=indent,eol,start
 
