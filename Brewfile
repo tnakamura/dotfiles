@@ -1,23 +1,14 @@
-cask_args appdir: "/Applications"
+# tap repositories and their packages
 
-tap "caskroom/cask"
-tap "telemachus/brew", "https://telemachus@bitbucket.org/telemachus/brew.git"
-
-brew "git"
-brew "go"
+tap homebrew/core
 brew "peco"
-brew "rbenv"
-brew "vim"
-brew "zsh"
 brew "ghq"
+brew "volta"
 
+tap homebrew/cask
 cask "appcleaner"
-cask "calibre"
-cask "cooviewer"
+cask "firefox"
 cask "google-chrome"
-cask "kindle"
-cask "macvim"
 cask "the-unarchiver"
-cask "transmission"
 cask "vlc"
 cask "visual-studio-code"
